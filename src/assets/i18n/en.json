@@ -1,0 +1,61 @@
+{
+    "application": {
+        "title": "Mobile apps",
+        "version": "Version",
+        "contact": "Contact"
+    },
+    "language": {
+        "title": "English",
+        "en": "English",
+        "es": "Spanish"
+    },
+    "actions": {
+        "list": "List of applications",
+        "create": "Register new"
+    },
+    "card": {
+        "actions": {
+            "delete": "Remove",
+            "create": "Create",
+            "edit": "Edit",
+            "accept": "Accept",
+            "cancel": "Cancel",
+            "close": "Close",
+            "save": "Save"
+        }
+    },
+    "form": {
+        "title": "Register",
+        "name": "Application",
+        "version": "Version",
+        "contact": "Contact name",
+        "patch": "Patch",
+        "contactNumber": "Contact number",
+        "validationErrors": {
+            "phone": "Phone number entered is invalid",
+            "empty": "The field cannot be blank",
+            "version": "Please introduce a valid version"
+        },
+        "phoneExample": "example: 1-555-555-5555",
+        "confirmation": {
+            "delete": {
+                "actionSucced": "The application was deleted successfully",
+                "question": "¿Are you sure?",
+                "questionItem": "You are about to delete the application",
+                "questionContinue": "This action cannot be undone. Are you sure you want to continue?"
+            },
+            "update": {
+                "actionSucced": "The app was updated successfully",
+                "actionFailed": "The application could not be updated"
+            },
+            "create": {
+                "actionSucced": "The app was created successfully",
+                "actionFailed": "The application could not be created"
+            }
+
+        }
+    },
+    "noData":{
+        "list":"The list you are trying to get is empty"
+    }
+}

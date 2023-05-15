@@ -1,0 +1,25 @@
+
+::ng-deep .mat-select-content{
+    width:2000px;
+    background-color: red;
+    font-size: 10px;   
+}
+
+mat-toolbar {
+    margin-bottom: 48px;
+    
+}
+
+.mat-select {
+    margin-left: 48px;
+    padding: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.panelWidth {
+    width: 48px;
+}
+.language-select .mat-select-value-text {
+    color: white;
+  }

@@ -1,0 +1,36 @@
+<form [formGroup]="applicationForm">
+    <h1 mat-dialog-title>{{'form.title'|translate}}</h1>
+    <div mat-dialog-content>
+        <mat-form-field>
+            <label>{{'form.name' | translate}}</label>
+            <input matInput formControlName="name">
+        </mat-form-field>
+        <mat-form-field>
+            <label>{{'form.version' | translate}}</label>
+            <input matInput formControlName="version">
+            <mat-error *ngIf="applicationForm.get('version')?.hasError('invalidSemver')">
+                {{'form.validationErrors.version'| translate}}
+            </mat-error>
+        </mat-form-field>
+        <mat-form-field>
+            <label>{{'form.contact' | translate}}</label>
+            <input class="form-control" matInput formControlName="contactName">
+        </mat-form-field>
+        <mat-form-field>
+            <label>{{'form.patch' | translate}}</label>
+            <input class="form-control" matInput formControlName="patch">
+        </mat-form-field>
+        <mat-form-field>
+
+            <label>{{'form.contactNumber' | translate}}</label>
+            <input matInput formControlName="contactNumber" placeholder="{{'form.phoneExample'| translate}}">
+            <mat-error *ngIf="applicationForm.get('contactNumber')?.hasError('invalidNumber')">
+                {{'form.validationErrors.phone' | translate}}
+            </mat-error>
+        </mat-form-field>
+    </div>
+    <div mat-dialog-actions  class="mat-dialog-actions mat-dialog-content">
+        <button mat-button mat-dialog-close  (click)="closeDialog()">{{'card.actions.cancel' | translate}}</button>
+        <button mat-button type="submit"(click)="onSubmit()"  [disabled]="applicationForm.invalid">{{ 'card.actions.save'  | translate }}</button>
+    </div>
+</form>

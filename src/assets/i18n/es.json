@@ -1,0 +1,61 @@
+{
+    "application": {
+        "title": "Aplicaciones móviles",
+        "version": "Versión",
+        "contact": "Contacto"
+    },
+    "language": {
+        "title": "Español",
+        "en": "Ingles",
+        "es": "Español"
+    },
+    "actions": {
+        "list": "Lista de aplicaciones",
+        "create": "Registrar nueva"
+    },
+    "card": {
+        "actions": {
+            "delete": "Eliminar",
+            "create": "Crear",
+            "edit": "Editar",
+            "accept": "Aceptar",
+            "cancel": "Cancelar",
+            "close": "Cerrar",
+            "save": "Guardar"
+        }
+    },
+    "form": {
+        "title": "Registro",
+        "name": "Aplicación",
+        "version": "Versión",
+        "contact": "Nombre de contacto",
+        "patch": "Parche",
+        "contactNumber": "Número de contacto",
+        "validationErrors": {
+            "phone": "El número de teléfono ingresado no es válido",
+            "empty": "El campo no puede estar en blanco",
+            "version": "Introduce una versión válida"
+        },
+        "phoneExample": "ejemplo: 1-555-555-5555",
+        "confirmation": {
+            "delete": {
+                "actionSucced": "La aplicación se elimino correctamente",
+                "question": "¿Esta seguro/a?",
+                "questionItem": "Está a punto de eliminar la aplicación",
+                "questionContinue": "Esta acción no se puede deshacer. ¿Estas seguro que deseas continuar?",
+                "actionFailed": "La aplicación no pudo ser eliminada"
+            },
+            "update": {
+                "actionSucced": "La aplicación se actualizó correctamente",
+                "actionFailed": "La aplicación no pudo ser actualizada"
+            },
+            "create": {
+                "actionSucced": "La aplicación se creó correctamente",
+                "actionFailed": "La aplicación no pudo ser creada"
+            }
+        }
+    },
+    "noData":{
+        "list":"La lista que está tratando de obtener está vacía"
+    }
+}

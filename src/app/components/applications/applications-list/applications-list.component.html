@@ -1,0 +1,30 @@
+<h1>{{ 'actions.list' | translate }}</h1>
+
+<div class="row p2">
+  <div class="btn-create">
+    <button mat-raised-button color="primary" (click)="openDialogCreate()">Create
+      <mat-icon>add_circle_outline</mat-icon>
+    </button>
+  </div>
+</div>
+
+<div class="row">
+  <div class="card-container mat-card">
+    <ng-container *ngIf="pagedItems.length > 0; else emptyList">
+      <mat-card *ngFor="let item of pagedItems" class="card" (click)="openDialogDetials(item)">
+        <app-application-card [application]="item" (dialogClosed)="onDialogClosed()"></app-application-card>
+      </mat-card>
+    </ng-container>
+    <ng-template #emptyList>
+      <div class="empty-list-container">
+        <p class="empty-list-message">
+          <mat-icon class="empty-list-icon">info</mat-icon>
+          <span>{{ 'noData.list' | translate }}</span>
+        </p>
+      </div>
+    </ng-template>
+  </div>
+</div>
+
+<mat-paginator [length]="filteredItems.length" [pageSize]="9" [pageSizeOptions]="[9]" (page)="pageChanged($event)">
+</mat-paginator>

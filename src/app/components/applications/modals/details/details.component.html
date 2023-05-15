@@ -1,0 +1,15 @@
+<mat-dialog-content>
+    <mat-card-header>
+      <mat-card-subtitle><span>{{'application.version' | translate}}</span> {{data.version}}</mat-card-subtitle>
+    <mat-card-title>{{data.name}} </mat-card-title>
+    </mat-card-header>
+    <mat-card-content>
+      <h3>{{'application.contact'| translate}}: </h3>
+      <span class="p2">{{data.contactName}} </span> <span>{{data.contactNumber}}</span>
+      <mat-divider></mat-divider>
+    </mat-card-content>
+    <mat-card-actions>
+      <button class="close-button" (click)="closeDialog()" mat-button> <mat-icon>close</mat-icon></button>
+      <button (click)="closeDialog()" mat-button> {{'card.actions.close' | translate}}</button>
+    </mat-card-actions>
+</mat-dialog-content>

@@ -1,0 +1,5 @@
+<mat-select panelClass="language-select"   placeholder="{{'language.title' | translate}}"(selectionChange)="changeLanguage($event.value)" style="width: 100px; ">
+    <mat-option  *ngFor="let language of languageList" [value]="language.locale" >
+      {{ language.displayName | translate}}
+    </mat-option>
+  </mat-select>

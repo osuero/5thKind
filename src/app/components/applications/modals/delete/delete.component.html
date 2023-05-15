@@ -1,0 +1,9 @@
+<h1 mat-dialog-title>{{'form.confirmation.delete.question'| translate}}</h1>
+<div mat-dialog-content>
+   <p> {{'form.confirmation.delete.questionItem' | translate}} <b>{{data.name}}</b></p>
+  <p>{{'form.confirmation.delete.questionContinue'| translate}}</p>
+</div>
+<div mat-dialog-actions>
+  <button mat-button (click)="onCancel()">{{'card.actions.cancel' | translate}}</button>
+  <button mat-button (click)="onConfirm()">{{'card.actions.delete' | translate}}</button>
+</div>

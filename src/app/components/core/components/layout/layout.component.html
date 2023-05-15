@@ -1,0 +1,31 @@
+
+<mat-sidenav-container fullscreen>
+<mat-sidenav #sidenav mode="push" [ngStyle]="{width: '250px'}">
+    <mat-toolbar color="primary">
+        <span>Menu</span>
+        <span class="spacer"></span>
+        <button mat-icon-button (click)="sidenav.toggle()"></button>
+    </mat-toolbar>
+    <mat-nav-list>
+        <mat-list-item *ngFor="let item of sideBarRoutes" [routerLink]="item.url"  (click)="sidenav.toggle()">
+            <mat-icon mat-list-icon>{{item.icon}}</mat-icon> {{item.label | translate}} 
+           
+        </mat-list-item>
+    </mat-nav-list>
+</mat-sidenav>
+<mat-toolbar color="primary">
+    <button mat-icon-button (click)="sidenav.toggle()">
+        <mat-icon>menu</mat-icon>
+    </button>
+    <span class="title">{{'application.title' | translate}}</span>
+    <span class="spacer"></span>
+    <language-selector></language-selector>
+</mat-toolbar>
+<div class="container">
+    <router-outlet></router-outlet>
+</div>
+<div class="spinner-container" *ngIf="loadingService.loading$ | async">
+    <mat-spinner></mat-spinner>
+  </div>
+  
+</mat-sidenav-container>

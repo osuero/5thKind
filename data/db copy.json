@@ -1,0 +1,115 @@
+{
+  "routes": [
+    {
+      "label": "actions.list",
+      "icon": "label",
+      "url": "application/list"
+    },
+    {
+      "label": "actions.create",
+      "icon": "add_circle",
+      "url": "/add"
+    }
+  ],
+  "applications": [
+    {
+      "name": "Google ++",
+      "version": "1.2.3",
+      "contactName": "Octavio A. Suero",
+      "patch": "1",
+      "contactNumber": "1-829-616-6909",
+      "id": "8f60232a-7008-4807-a518-fa2797e7ab12",
+      "createdDate": "5/14/2023: 4:35"
+    },
+    {
+      "name": "Telegram",
+      "version": "1.3.3",
+      "contactName": "Octavio A. Suero",
+      "patch": "1",
+      "contactNumber": "1-849-447-6909",
+      "id": "aeae029d-f864-4cc6-a1c5-8592a3283bb7",
+      "createdDate": "5/14/2023: 9:16"
+    },
+    {
+      "name": "Telegram",
+      "version": "1.3.1",
+      "contactName": "Octavio A. Suero",
+      "patch": "1",
+      "contactNumber": "1-849-447-6909",
+      "id": "fa053a63-757f-48ea-b747-d4bb0f5c0efd",
+      "createdDate": "5/14/2023: 15:11"
+    },
+    {
+      "name": "HBO",
+      "version": "1.3.1",
+      "contactName": "Octavio A. Suero",
+      "patch": "1",
+      "contactNumber": "1-829-616-6909",
+      "id": "cd0050f7-431e-4aa1-94af-44829a799f44",
+      "createdDate": "5/14/2023: 15:32"
+    },
+    {
+      "name": "Spotify",
+      "version": "1.3.1",
+      "contactName": "Octavio A. Suero",
+      "patch": "1",
+      "contactNumber": "1-849-447-6909",
+      "id": "dce8c338-d2c9-4daa-bc27-eb952980ba98",
+      "createdDate": "5/14/2023: 15:33"
+    },
+    {
+      "name": "NetFlix",
+      "version": "2.1.2",
+      "contactName": "Octavio A. Suero",
+      "patch": "1",
+      "contactNumber": "1-849-447-6909",
+      "id": "baba7c23-33b2-4cee-9c81-77d979365c66",
+      "createdDate": "5/14/2023: 15:33"
+    },
+    {
+      "name": "HBO",
+      "version": "1.3.2",
+      "contactName": "Octavio A. Suero",
+      "patch": "1",
+      "contactNumber": "1-829-616-6909",
+      "id": "f296b3b4-7afc-4c1b-bdee-9af6e32323dc",
+      "createdDate": "5/14/2023: 15:33"
+    },
+    {
+      "name": "Telegram",
+      "version": "1.3.2",
+      "contactName": "Octavio A. Suero",
+      "patch": "1",
+      "contactNumber": "1-849-447-6909",
+      "id": "346ade56-15e6-4c58-993d-01fc30dc6d5b",
+      "createdDate": "5/14/2023: 15:34"
+    },
+    {
+      "name": "Telegram",
+      "version": "1.3.2",
+      "contactName": "Octavio A. Suero",
+      "patch": "1",
+      "contactNumber": "1-849-447-6909",
+      "id": "2bb36a80-f790-4230-8eea-2ce0b29e842f",
+      "createdDate": "5/14/2023: 15:34"
+    },
+    {
+      "name": "NetFlix",
+      "version": "2.1.2",
+      "contactName": "Octavio A. Suero",
+      "patch": "1",
+      "contactNumber": "1-849-447-6909",
+      "id": "0a662823-5fe9-437d-a9e4-91dee6c6a1a5",
+      "createdDate": "5/14/2023: 15:35"
+    },
+    {
+      "name": "Tinder",
+      "version": "3.2.1",
+      "contactName": "Octavio A. Suero",
+      "patch": "1",
+      "contactNumber": "1-849-447-6909",
+      "id": "d5d8224b-12e7-4829-b183-045a89fb29de",
+      "createdDate": "5/14/2023: 15:36"
+    }
+  ]
+}

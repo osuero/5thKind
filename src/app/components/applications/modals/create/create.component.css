@@ -1,0 +1,14 @@
+.close-button {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.mat-dialog-content {
+    text-align: right;
+  }
+  
+  /* Color the action buttons */
+  .mat-dialog-actions button {
+    color: white; /* Change this to the desired text color */
+    background-color: #3f51b5; /* Change this to the desired background color */
+  }
